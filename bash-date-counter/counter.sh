@@ -2,5 +2,5 @@
 
 while true; do
   sleep 1
-	date
+  date
 done
