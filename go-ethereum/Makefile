@@ -22,4 +22,4 @@ up:
 
 .PHONY: attach
 attach:
-	sudo docker exec -it geth geth attach ipc:/.rinkeby/geth.ipc
+	docker exec -it geth geth attach ipc:/.rinkeby/geth.ipc
